@@ -1,0 +1,36 @@
+.blog{
+    margin: 0 2% 0 2%;
+}
+
+.blogNav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    margin-left: 5%;
+}
+
+.right{
+    margin-right: 5%;
+}
+
+.blogNav .back{
+    margin-left: 5%;
+}
+
+.blogNav .nav{
+    margin-right: 5%;
+}
+
+.blogNav h3{
+    transition: all 0.3s ease;
+}
+
+.blogNav h3:hover{
+    transform: scale(1.2);
+    color: tomato;
+}

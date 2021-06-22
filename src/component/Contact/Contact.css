@@ -1,0 +1,72 @@
+.contact{
+    margin: 0 2% 0 2%;
+}
+
+.grid{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#button{
+    width: 8vw;
+    height: 8vh;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 2vh;
+    border: 2px solid tomato;
+    color: tomato;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#note{
+    font-size: 2rem;
+}
+
+#button:hover{
+    background-color: white;
+    border-color: rgb(44, 44, 44);
+}
+
+#email{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin: 5%;
+}
+
+.grid div h1{
+    font-size: 5rem;
+}
+
+span{
+    color: tomato;
+    font-size: 7rem;
+}
+
+#area{
+    width: 25vw;
+    height: 25vh;
+    margin: 5%;
+}
+
+#right{
+    margin-left: 5%;
+}
+
+#left{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#opinion{
+    color: tomato;
+    font-size: 2rem;
+}
