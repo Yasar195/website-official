@@ -87,6 +87,7 @@ section{
     }
 
     .para{
+        margin-top: 10%;
         opacity: 0;
         animation: animpara 1s ease-in-out 1s forwards;
         width: 70%;
