@@ -1,1 +1,1 @@
-alert('The following webpage is currently under development so you might bugs in it.');
+alert('The following webpage is currently under development so you might see bugs in it.');
