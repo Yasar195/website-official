@@ -1,1 +1,0 @@
-alert('The following webpage is currently under development so you might see bugs in it.');

@@ -89,6 +89,11 @@ section{
     .para{
         visibility: hidden;
         animation: animpara 1s ease-in-out 1s forwards;
+        width: 75%;
+    }
+
+    .nav{
+        font-size: 1.8rem;
     }
 
     @keyframes animpara{
@@ -110,7 +115,7 @@ section{
         }
 
         50%{
-            width: 30%;
+            width: 20%;
             transform: translateX(0);
         }
 
