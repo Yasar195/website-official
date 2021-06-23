@@ -74,3 +74,49 @@ section{
     width: 100%;
     scroll-snap-align: start;
 }
+
+@media (max-width: 500px){
+    .main{
+        font-size: 7rem;
+    }
+
+    .anim{
+        width: 0;
+        height: 1vh;
+        animation: underanim 3s ease-in-out forwards 0.5s;
+    }
+
+    .para{
+        visibility: hidden;
+        animation: animpara 1s ease-in-out 1s forwards;
+    }
+
+    @keyframes animpara{
+        from{
+            visibility: hidden;
+            transform: translateY(30px);
+        }
+
+        to{
+            visibility: visible;
+            transform: translateY(0); 
+        }
+    }
+
+    @keyframes underanim{
+        0%{
+            width: 0;
+            transform: translateX(0);
+        }
+
+        50%{
+            width: 30%;
+            transform: translateX(0);
+        }
+
+        100%{
+            width: 0;
+            transform: translateX(20%);
+        }
+    }
+}
