@@ -6,6 +6,20 @@
     align-items: center;
 }
 
+.aboutme{
+    margin: 5% 0 0 5%;
+}
+
+.aboutme h1{
+    color: tomato;
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+
+.aboutme p{
+    font-size: 2rem;
+}
+
 .main{
     font-size: 20vh;
     margin-left: 5%;
@@ -69,15 +83,17 @@
     color: tomato;
 }
 
-section{
-    height: 100vh;
-    width: 100%;
-    scroll-snap-align: start;
-}
 
 @media (max-width: 500px){
     .main{
         font-size: 7rem;
+    }
+
+    .aboutme p{
+        margin-top: 5%;
+        opacity: 0;
+        animation: animpara 3s ease-in-out forwards 2s;
+        width: 70%;
     }
 
     .anim{
