@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="contact">
             <div className="blogNav">
                 <Link className="link right" to="/">
-                    <h3 className="back">Home</h3>
+                    <h3 className="nav back">Home</h3>
                 </Link>
                 <Link className="link left" to="/blog">
                     <h3 className="nav">Blog</h3>
