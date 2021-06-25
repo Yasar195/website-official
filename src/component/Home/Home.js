@@ -11,7 +11,7 @@ const Home = () => {
                         <h3 className="nav">Blog</h3>
                     </Link>
                     <Link className="link" to="/contact">
-                        <h3 className="nav">Contat me</h3>
+                        <h3 className="nav">Contact me</h3>
                     </Link>
                 </div>
                 <h1 className="main">Hey</h1>
