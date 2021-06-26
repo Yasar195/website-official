@@ -1,144 +1,59 @@
-.nav{
+section{
     width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.aboutme{
-    margin: 5% 0 0 5%;
-}
-
-.aboutme h1{
-    color: tomato;
-    font-size: 4rem;
-    margin-bottom: 5%;
-}
-
-.aboutme p{
-    font-size: 2rem;
-}
-
-.main{
-    font-size: 20vh;
-    margin-left: 5%;
-}
-
-.para{
-    margin-left: 5%;
-    font-size: 3rem;
-    font-weight: lighter;
-    margin-top: 5%;
-}
-
-.home{
-    margin: 0 2% 0 2%;
-    scroll-snap-type: y proximity;
     height: 100vh;
 }
 
-.nav h3{
-    transition: all 0.3s ease;
+.nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.link{
-    margin-right: 10%;
-    text-decoration: none;
+.welcome{
+    height: 90vh;
+    background-image: linear-gradient(120deg , rgb(148, 148, 253), rgb(146, 0, 231));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
 }
 
-.nav h3:hover{
-    transform: scale(1.2);
-    color: tomato;
+.welcome h1{
+    font-size: 4rem;
 }
 
-.anim{
-    margin-top: -3%;
-    margin-left: 5%;
-    width: 0vw;
-    height: 2vh;
-    background-color: tomato;
-    animation: underanim ease-in-out 3s forwards 0.5s;
+.welcome h2{
+    font-size: 2rem;
 }
 
-@keyframes underanim{
-    0%{
-        width: 0;
-        transform: translateX(0);
+.hai{
+    opacity: 0;
+    animation: textanim 1s ease-in-out 0.5s forwards;
+}
+
+.yasar{
+    opacity: 0;
+    animation: textanim 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes textanim{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
     }
 
-    50%{
-        width: 13vw;
-        transform: translateX(0);
-    }
-
-    100%{
-        width: 0vw;
-        transform: translateX(13vw);
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
-
-#text{
-    font-size: 3rem;
-    color: tomato;
-}
-
 
 @media (max-width: 600px){
-    .main{
-        font-size: 7rem;
-    }
-
-    .aboutme p{
-        margin-top: 5%;
-        opacity: 0;
-        animation: animpara 3s ease-in-out forwards 2s;
-        width: 70%;
-    }
-
-    .anim{
-        width: 0;
-        height: 1vh;
-        animation: underanim 3s ease-in-out forwards 0.5s;
-    }
-
-    .para{
-        margin-top: 10%;
-        opacity: 0;
-        animation: animpara 1s ease-in-out 1s forwards;
-        width: 70%;
-    }
-
-    .nav{
-        font-size: 1.8rem;
-    }
-
-    @keyframes animpara{
-        from{
-            opacity: 0;
-            transform: translateY(30px);
-        }
-
-        to{
-            opacity: 1;
-            transform: translateY(0); 
-        }
-    }
-
-    @keyframes underanim{
-        0%{
-            width: 0;
-            transform: translateX(0);
-        }
-
-        50%{
-            width: 20%;
-            transform: translateX(0);
-        }
-
-        100%{
-            width: 0;
-            transform: translateX(20%);
-        }
+    .yasar{
+        margin: 5%;
+        text-align: center;
     }
 }

@@ -1,29 +1,19 @@
 import React from 'react';
 import './Home.css';
-import {Link} from 'react-router-dom';
 
-const Home = () => {
+const Home =()=>{
     return(
-        <div className="home">
+        <div>
             <section>
                 <div className="nav">
-                    <Link className="link" to="/skill">
-                        <h3 className="nav">My skills</h3>
-                    </Link>
-                    <Link className="link" to="/contact">
-                        <h3 className="nav">Contact me</h3>
-                    </Link>
+                    <h1>My portfolio</h1>
+                    <h2>Blog</h2>
+                    <h2>Contact me</h2>
+                    <h2>My Projects</h2>
                 </div>
-                <h1 className="main">Hey</h1>
-                <div className="anim"></div>
-                <p className="para">I am <span id="text">yasar arafath</span> a <span id="text">front end</span> developer from kerala</p>
-            </section>
-            <section>
-                <div className="aboutme">
-                    <h1>About me</h1>
-                    <p>
-                        i am an computer science undergraduate student from kerala. iam interested in computer science and how computer's actually works since my childhood days.
-                    </p>
+                <div className="welcome">
+                    <h1 className="hai">Hai</h1>
+                    <h2 className="yasar">i am yasar arafath welcome to my website</h2> 
                 </div>
             </section>
         </div>
