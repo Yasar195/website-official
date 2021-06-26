@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './component/Home/Home';
-import Blog from './component/Blog/Blog';
+import Skill from './component/Skill/Skill';
 import Contact from './component/Contact/Contact';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
@@ -11,7 +11,7 @@ const App = () => {
             <Router>
                 <Switch>
                     <Route path="/" exact component={Home}/>
-                    <Route path="/blog" exact component={Blog}/>
+                    <Route path="/skill" exact component={Skill}/>
                     <Route path="/contact" exact component={Contact}/>
                 </Switch>
              </Router>

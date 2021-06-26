@@ -7,8 +7,8 @@ const Home = () => {
         <div className="home">
             <section>
                 <div className="nav">
-                    <Link className="link" to="/blog">
-                        <h3 className="nav">Blog</h3>
+                    <Link className="link" to="/skill">
+                        <h3 className="nav">My skills</h3>
                     </Link>
                     <Link className="link" to="/contact">
                         <h3 className="nav">Contact me</h3>

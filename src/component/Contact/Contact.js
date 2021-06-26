@@ -9,8 +9,8 @@ const Contact = () => {
                 <Link className="link right" to="/">
                     <h3 className="nav back">Home</h3>
                 </Link>
-                <Link className="link left" to="/blog">
-                    <h3 className="nav">Blog</h3>
+                <Link className="link left" to="/skill">
+                    <h3 className="nav">My skills</h3>
                 </Link>
             </div>
             <section className="grid">
