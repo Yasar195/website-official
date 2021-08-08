@@ -1,47 +1,105 @@
 .Home{
-    width: 100%;
+    background-color: #1B1919;
+}
+
+section{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2%;
+    width: 100%;
+    padding: 5%;
 }
 
-.heading{
-    font-size: 4rem;
-}
-
-#button{
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: grey;
-    color: white;
-    font-weight: bolder;
-}
-
-.links{
-    display: flex;
-    margin-top: 15%;
-    width: 80%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.para{
+#about_para{
+    position: relative;
+    width: 40%;
+    left: 60%;
     font-size: 2rem;
 }
 
-@media (max-width: 1000px){
-    #button{
-        padding: 5px 10px 5px 10px;
+#para{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    width: 50%;
+}
+
+
+#about{
+    font-size: 5rem;
+}
+
+#hai{
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
+#purple{
+    background-image: linear-gradient(120deg,#BE05FF, #F45800);
+    top: 10%;
+    right: 10%;
+}
+
+.anim_about{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-image: linear-gradient(120deg,#F45800, #BE05FF);
+    position: absolute;
+    top: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anim{
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#tomato{
+    background-image: linear-gradient(120deg,#F45800, #BE05FF);
+    right: 20%;
+    bottom: 10%;
+}
+
+@media (max-width: 500px){
+    .anim{
+        height: 150px;
+        width: 150px;
+        font-size: 1.5rem;
+    }
+
+    #hai{
+        margin-top: 40%;
+    }
+
+    #para{
+        margin-top: 20%;
     }
 }
 
-@media (max-width: 500px) {
-    .para{
-        width: 80%;
+@media (max-width: 900px){
+    .anim{
+        height: 150px;
+        width: 150px;
+    }
+
+    #hai{
+        margin-top: 20%;
+    }
+
+    #para{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1100px){
+    .anim_about{
+        height: 300px;
+        width: 300px;
     }
 }
