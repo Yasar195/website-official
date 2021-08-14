@@ -38,9 +38,24 @@ const Home = () => {
                     <h1>back-end development</h1>
                 </motion.div>
                 <div className="links">
-                    <motion.button whileHover={{scale:1.1}} whileTap={{scale: 0.9}}>Projects</motion.button>
-                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Skills</motion.button>
-                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Contact me</motion.button>
+                    <motion.button whileHover={{scale:1.1}} whileTap={{scale: 0.9}}
+                     variants={text}
+                     initial="hidden"
+                     animate="visible"
+                     transition={{duration: 5}}
+                    >Projects</motion.button>
+                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}
+                     variants={text}
+                     initial="hidden"
+                     animate="visible"
+                     transition={{duration: 5}}
+                    >Skills</motion.button>
+                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}
+                     variants={text}
+                     initial="hidden"
+                     animate="visible"
+                     transition={{duration: 5}}
+                    >Contact me</motion.button>
                 </div>
             </section>
             <section>
