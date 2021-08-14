@@ -37,13 +37,17 @@ const Home = () => {
                 id="tomato" className="anim">
                     <h1>back-end development</h1>
                 </motion.div>
+                <div className="links">
+                    <motion.button whileHover={{scale:1.1}} whileTap={{scale: 0.9}}>Projects</motion.button>
+                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Skills</motion.button>
+                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>Contact me</motion.button>
+                </div>
             </section>
             <section>
                 <h1 id="about">About me</h1>
                 <p id="about_para">I am a 2nd year undergraduate student persuing degree in computer science and engineering. I am really passionate about what i do. Really open to new opertunities.</p>
                 <motion.div
                  drag
-                 className="about"
                  dragConstraints={{left: 10, right: 10, bottom: 10, top: 10}}
                  whileDrag={{scale: 1.1}}
                  initial="hidden"
