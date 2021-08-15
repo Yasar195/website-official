@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -10,6 +11,7 @@ const Home = () => {
                 <motion.h1 id="hai">Hai</motion.h1>
                 <motion.p id="para">I am Yasar arafath a web developer from kerala</motion.p>
                 <motion.div drag
+                whileTap={{scale: 0.9}}
                 dragConstraints={{left: 10, right: 10, bottom: 10, top: 10}}
                 whileDrag={{scale: 1.1}} id="purple" className="anim">
                     <h1>Front-end development</h1>
@@ -17,14 +19,15 @@ const Home = () => {
                 <motion.div drag
                 dragConstraints={{left: 10, right: 10, bottom: 10, top: 10}}
                 whileDrag={{scale: 1.1}}
+                whileTap={{scale: 0.9}}
                 id="tomato" className="anim">
                     <h1>back-end development</h1>
                 </motion.div>
                 <div className="links">
                     <motion.button whileHover={{scale:1.1}} whileTap={{scale: 0.9}}
                     >Projects</motion.button>
-                    <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}
-                    >Skills</motion.button>
+                    <Link to="/skill"><motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}
+                    >Skills</motion.button></Link>
                     <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}
                     >Contact me</motion.button>
                 </div>
@@ -36,6 +39,7 @@ const Home = () => {
                  drag
                  dragConstraints={{left: 10, right: 10, bottom: 10, top: 10}}
                  whileDrag={{scale: 1.1}}
+                 whileTap={{scale: 0.9}}
                  className="anim_about"
                 >
                     <h1>Computer science and engineering</h1>

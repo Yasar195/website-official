@@ -1,0 +1,74 @@
+.skill{
+    width: 100%;
+    height: 100vh;
+}
+
+#button{
+    border: none;
+    outline: none;
+    background-image: linear-gradient(120deg,#7802ff, #00ff6a);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+#postgres{
+    background-image: linear-gradient(120deg,#0263ff, #c2c2c2);
+    left: 30%;
+    top: 10%;
+}
+
+#expressjs{
+    background-image: linear-gradient(120deg,#dddbff, #363636);
+    right: 10%;
+    top: 10%;
+}
+
+#reactjs{
+    background-image: linear-gradient(120deg,#BE05FF, #0048e2);
+    left : 20%;
+    bottom: 10%;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+.skills h1{
+    background-color: transparent;
+}
+
+#nodejs{
+    background-image: linear-gradient(120deg,#BE05FF, #00ff4c);
+    left : 50%;
+    top: 30%;
+}
+
+@media (max-width: 1300px){
+    .skills{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 800px){
+    .skills{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 500px){
+    .skills{
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,7 +1,3 @@
-.Home{
-    background-color: #1B1919;
-}
-
 .links{
     display: flex;
     width: 70%;
@@ -63,6 +59,14 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.anim_about h1{
+    background-color: transparent;
+}
+
+.anim h1{
+    background-color: transparent;
 }
 
 .anim{
